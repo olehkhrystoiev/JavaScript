@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+    <title>Заголовокдокумента</title>
+	  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	  <link rel="stylesheet" href="index.css" type="text/css">
+      <title>JavaScript</title>
+	</head>
+	<body>
+	   <header>
+	   	   <img class="logo" src="webLogo.png" alt="изображение" width="200" />
+	   	   <div id="name"><h1>Основы Web-технологий</h1></div>	   	      	   	   	   	   
+	   	   	   <ul class="main-menu">
+	   	   	   	  <li>
+	   	   	   	  	 <a href="index.html">Главная</a>
+	   	   	   	  </li>
+	   	   	   	  <li class="open">
+	   	   	   	  	 <a href="tech.html">Web-технологии</a>
+	   	   	   	  	 <ul class="sub-menu">
+	   	   	   	  	 	<li>
+	   	   	   	  	       <a href="html5.html">HTMl5</a>
+	   	   	   	        </li>
+	   	   	   	        <li>
+	   	   	   	  	       <a href="css3.html">CSS3</a>
+	   	   	   	        </li>
+	   	   	   	        <li>
+	   	   	   	  	       <a href="javaScript.html">JavaScript</a>
+	   	   	   	        </li>
+	   	   	   	  	 </ul>
+	   	   	   	  </li>
+	   	   	   	  <li>
+	   	   	   	  	 <a href="calc.html">Калькулятор</a>
+	   	   	   	  </li>
+	   	   	   	  <li>
+	   	   	   	  	 <a href="test.html">Тест</a>
+	   	   	   	  </li>
+	   	   	   </ul>
+	   	   </header>
+           
+           <article class="main">
+           <form name="calc" action="">
+             <table id="calcul" cellpadding=0 cellspacing=0>
+   <tr>
+      
+      
+   </tr>
+   <td colspan="5">
+   <input class="emptyfield" name="ReadOut" type="Text" value="0"></td>
+   <tr>
+      
+      <td><input class="anybutton" type="button" value="7"  onclick="NumPressed(7)"/></td>
+      <td><input class="anybutton" type="button" value="8"  onclick="NumPressed(8)"/></td>
+      <td><input class="anybutton" type="button" value="9"  onclick="NumPressed(9)"/></td>
+      <td><input class="anybutton" type="button" value="/"  onclick="Operation('/')"/></td>
+      <td><input class="anybutton" type="button" value="C"  onclick="Clear()"/></td>
+      
+   </tr>
+   <tr>
+      <td><input class="anybutton" type="button" value="4" onclick="NumPressed(4)"/></td>
+      <td><input class="anybutton" type="button" value="5" onclick="NumPressed(5)"/></td>
+      <td><input class="anybutton" type="button" value="6" onclick="NumPressed(6)"/></td>
+      <td><input class="anybutton" type="button" value="*" onclick="Operation('*')"/></td>
+      <td><input class="anybutton" type="button" value="&plusmn;" onclick="Neg()"/></td>
+   </tr>
+    <tr>
+      <td><input class="anybutton" type="button" value="1" onclick="NumPressed(1)"/></td>
+      <td><input class="anybutton" type="button" value="2" onclick="NumPressed(2)"/></td>
+      <td><input class="anybutton" type="button" value="3" onclick="NumPressed(3)"/></td>
+      <td><input class="anybutton" type="button" value="-" onclick="Operation('-')"/></td>
+      <td rowspan="2"><input id="buttonequal" type="button" value="=" onclick="Operation('=')"/></td>
+      
+   </tr>
+   <tr>
+   <td colspan="2"><input id="buttonzero" type="button" value="0"  onclick="NumPressed(0)"/></td>
+   <td><input class="anybutton" type="button" value="." onclick="Decimal()"/></td>
+   <td><input class="anybutton" type="button" value="+" onclick="Operation('+')"/></td>
+   </tr>
+</table>
+</form>
+           </article>
+
+            <footer>
+	   	   <address>
+	   	   	   <a href="mailto:mail@mail">Пишите: mail@mail</a> 	   	
+	   	   </address>
+	   	  <span>&copy; Фамилия И.О., год</span>
+	   </footer>
+
+
+
+	   <script src="jscalc.js"></script>
+	</body>
+  </html>

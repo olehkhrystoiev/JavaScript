@@ -1,0 +1,186 @@
+* { padding: 0; margin: 0; }
+
+body {
+	background: grey;
+}
+header {
+	position: relative;
+	background: white;
+	border: 1px solid white;
+	width: 800px;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+#name {
+	position: relative;
+	left: 270px;
+	bottom: 70px;
+}
+.main-menu {
+	display:block;
+    position:relative;
+    text-decoration: none;
+    left: 270px;
+    margin-top: -30px;
+}
+.main-menu > li {
+    display:inline-block;
+    height:20px;
+    position:relative;
+  }
+.main-menu > li > ul {
+    position:absolute;
+    top:20px;
+    display:none;
+}
+.main-menu > li:hover > ul {
+    border: 1px solid black;
+    background: white;
+    display:block; 
+    z-index: 9; 
+    color: blue;
+    list-style: none;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+
+h2 {
+	position: relative;
+	padding-bottom: 10px;
+}
+.main {
+	position: relative;
+	width: 790px;
+	border: 1px solid white;
+	border-radius: 10px;
+	margin: 0 auto;
+	background: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 18px;
+	text-align: justify;
+}
+
+
+
+
+footer {
+	position: relative;
+	background: white;
+	border: 1px solid white;
+	margin: 0 auto;
+	width: 800px;
+	border-radius: 10px;
+}
+address {
+    position: relative;
+    text-align: center;
+}
+span {
+	position: relative;
+    left: 330px;
+}
+
+                       /* class for page tech */
+#block {
+	position: relative;
+	left: 40px;
+} 
+.linetoright {
+	position: relative;
+	left: 40px;
+}                      
+                      /*   end of class for tech page   */
+
+
+
+
+
+
+                      /* class for page test */
+.version {
+	position: relative;
+	left: 5px;
+}   
+#buttonres {
+	position: relative;
+	bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	bottom: 20px;
+}      
+
+
+         /* class for calc psge */
+table {
+	position: relative;
+	left: 330px;
+}   
+
+.anybutton {
+	position: relative;
+	border: 1px solid #D9C9C9;
+	background: #F5F2F2;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+	width: 50px;
+}  
+#buttonequal {
+	position: relative;
+	text-align: center;
+	border: 1px solid #D9C9C9;
+	background: #F5F2F2;
+  	width: 50px;
+  	height: 61px;
+  	margin-top: 5px;
+
+}     
+#buttonzero {
+  	position: relative;
+  	text-align: center;
+  	border: 1px solid #D9C9C9;
+  	background: #F5F2F2;
+  	margin-top: 5px;
+  	width: 103px;
+    height: 27px;
+}
+.emptyfield {
+	position: relative;
+	background: white;
+	border: 1px solid #D9C9C9;
+	width: 255px;
+	height: 25px;
+	text-align: right;
+	font-size: 20px;
+	padding-right: 5px;
+}
+
+
+
+
+
+
+         /* class for html5 page */
+#aside {
+
+	float: right;
+	width: 225px;
+	margin-top: 5px;
+	font-size: 15px;
+	border: 1px solid yellow;
+	background: grey;
+	border-radius: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: 5px;
+	right: 300px;
+}  
+h3 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
