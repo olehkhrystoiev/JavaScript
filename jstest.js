@@ -18,7 +18,7 @@ function score() {
     if (q4[0].checked == false && q4[1].checked && q4[2].checked == false && q4[3].checked) {
   sum++;
   }
-    if (q5[0].checked == false && q5[1].checked && q5[3].checked == false && q5[2].checked) {
+    if (q5[2].checked == false && q5[1].checked && q5[3].checked == false && q5[0].checked) {
   sum++;
   }
 	alert("Ваш результат:" + sum);
